@@ -22,7 +22,7 @@
             <div id="celebrationImageCarousel" class="carousel slide manage-event-celebration-image-carousel" data-ride="carousel" data-interval="false">
                 <!-- slideshow -->
                 <div class="carousel-inner">
-                    @for (var i = 0; i < Common.GetCountOfFilesInDirectory(Server.MapPath("~/Content/images/carousel")); i++)
+                    @for (var i = 0; i < Common.GetCountOfFilesInDirectory(Server.MapPath("https://m365x094779.sharepoint.com/sites/Celebrations/Shared%20Documents/Forms/AllItems.aspx")); i++)
                     {
                         var url = $"/Content/images/carousel/{i}.png";
                         var isActive = ((Model.CelebrationEvent == null) && (i == 0)) ||
